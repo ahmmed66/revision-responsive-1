@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+/* header nav section here */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-logo h2 {
+    font-size: 24px;
+}
+
+.navbar {
+    margin: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    margin: 34px;
+    font-size: 16px;
+}
+
+/* header img and title code */
+.header-content {
+    display: flex;
+}
+
+.header-content .header-title {
+    width: 582px;
+    height: 270px;
+    margin-left: 10p;
+
+}
+
+.header-title h1 {
+    font-size: 52px;
+}
+
+.header-content img {
+    width: 400px;
+    height: 414px;
+    margin-left: 133px;
+}
